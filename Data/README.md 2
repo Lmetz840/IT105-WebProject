@@ -1,1 +1,74 @@
-# IT105-WebProject
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>HTML and CSS</title>
+        <style>
+        <!-- 
+            body {background-color: white;
+            font-size:20pt;
+            color:#324b4c;
+            }
+        --> 
+        </style>
+    </head>
+    <body>
+         <p ID="MainPage"></p>
+        <div ID= "Banner">
+            <div ID= "row">
+                <div ID= "col-md-12">
+                    <img src="images/CaffeinatedClimbersLogo.png" alt="Caffeinated Climbers Logo" width="100%" height="auto">
+                </div>
+            </div>
+        </div>
+        <h4>Our Mission</h4>
+        <h6>Providing the Huntingdon area with coffee-loving, experienced, climbing and backpacking guides </h6>
+        <h4>Locations</h4>
+      <div id="ImageCarouselCSS" class="carousel slide" data-ride="carousel">
+  <div class="carousel-indicators">
+    <div data-target="#ImageCarouselCSS" data-slide-to="0" class="active"></div>
+    <div data-target="#ImageCarouselCSS" data-slide-to="1"></div>
+    <div data-target="#ImageCarouselCSS" data-slide-to="2"></div>
+  </div>
+  <div class="carousel-indicators">
+  <div class="carousel-inner">
+      <h6>1,000 Steps </h6>
+    <div class="carousel-item active">
+      <img src="images/1000-steps-1000.jpg" class="d-block w-100" alt="1000 Steps" width="100%" height="auto">
+    </div>
+      <h6>Balanced Rock </h6>
+    <div class="carousel-item">
+      <img src="images/Balanced-Rock-Trough-Creek-State-Park-7641.jpg" class="d-block w-100" alt="Balanced Rock" width="100%" height="auto">
+    </div>
+      <h6>Raystown Lake </h6>
+    <div class="carousel-item">
+      <img src="images/DSC_0010_2898a981-4248-45f0-b427-9432c99a3cb6.jpg" class="d-block w-100" alt="Raystown Lake" width="100%" height="auto">
+    </div>
+  </div>
+</div>
+       <div>
+           <h4>Our Guides</h4>
+           <div class="row">
+      <div class="col-md-4">
+        <img src="images/Screenshot%202024-10-18%20at%208.19.14%20PM.png" width="33%" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <h2 class="fw-normal">Elisabeth Montfrappe</h2>
+        <p>I run our hour long tours of the 1,000 Steps and Balanced Rock loop. When I drink coffee I love decaf with lots of cream and sugar.</p>
+        <p><a class="btn btn-secondary" href="#">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-md-4">
+        <img src="images/Screenshot%202024-10-18%20at%208.19.32%20PM.png" width="33%" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <h2 class="fw-normal">Monica Alatte</h2>
+        <p>I run all of the guided hiking tours of Raystown Lake and I drink my coffee black.</p>
+        <p><a class="btn btn-secondary" href="#">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-md-4">
+        <img src="images/Screenshot%202024-10-18%20at%208.20.03%20PM.png" width="33%" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <h2 class="fw-normal">Todd Climbor</h2>
+        <p>I specialize in backpacking trips and my favorite coffee is esspresso.</p>
+        <p><a class="btn btn-secondary" href="#">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div>
+    </div>
+    </div>
+    </body>
+</html>
